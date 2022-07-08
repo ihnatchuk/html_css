@@ -20,9 +20,12 @@ body {
 }
 
 .avatar {
-  width: 220px;
+  /*width: 220px;*/
   border-radius: 28px;
   box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.25);
+}
+.avatar:hover{
+  width: 240px
 }
 .headAvatarContact_info {
   color: #0f141e;
@@ -55,4 +58,27 @@ body {
     margin: 20px;
     display:flex;
     justify-content: center;
+}
+#name{
+  border-color: antiquewhite;
+}
+#name:hover{
+  border-color: rgb(182, 163, 137);
+}
+#name:focus{
+  border-color: rgb(182, 163, 137);
+  outline:none;
+}
+#email{
+  border-color: antiquewhite;
+}
+#email:hover{
+  border-color: rgb(182, 163, 137);
+}
+#email:focus{
+  border-color: rgb(182, 163, 137);
+  outline:none;
+}
+.button{
+  border-color: antiquewhite;
 }
